@@ -35,15 +35,15 @@ const Home = () => {
         <div className="social">
           <h3>Visit my</h3>
           <a href="">
-            <img src="/src/assets/GitHub.png" alt="" />
+            <img src="./assets/GitHub.png" alt="" />
           </a>
           <a href="">
-            <img src="/src/assets/LinkedIn Circled.png" alt="" />
+            <img src="./assets/LinkedIn Circled.png" alt="" />
           </a>
         </div>
       </div>
       <div className="self-image">
-        <img src="/src/assets/about-img.png" alt="" />
+        <img src="./assets/about-img.png" alt="" />
       </div>
     </div>
   );

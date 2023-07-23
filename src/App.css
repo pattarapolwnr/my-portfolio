@@ -1,0 +1,13 @@
+.container-home {
+  height: 900px;
+  background: var(--color-secondary);
+}
+
+.container-about {
+  height: 980px;
+}
+
+.container-skills {
+  height: 900px;
+  background: var(--color-secondary);
+}

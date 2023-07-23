@@ -1,0 +1,25 @@
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.profile-img {
+  margin: 10rem auto;
+}
+
+.aboutme {
+  margin: 15rem auto;
+  padding-left: 5rem;
+  padding-right: 10rem;
+}
+
+.aboutme h1 {
+  text-align: center;
+}
+
+.aboutme p {
+  margin-top: 3.5rem;
+  color: var(--text-secondary);
+  font-size: 20px;
+  font-weight: var(--font-regular);
+}

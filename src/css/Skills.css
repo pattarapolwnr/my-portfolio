@@ -1,0 +1,38 @@
+.myskills {
+  padding-top: 5rem;
+  padding-left: 7rem;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: var(--font-xbold);
+  color: var(--text-primary);
+  margin: 2rem auto;
+}
+
+.selector {
+  display: flex;
+}
+
+.btn {
+  margin-right: 2rem;
+  font-size: 20px;
+  font-weight: var(--font-regular);
+  border-radius: 10px;
+  background: var(--color-secondary);
+  border: 2px solid var(--color-primary);
+  transition: ease-in-out 0.2s;
+}
+
+.btn:hover {
+  background: var(--color-primary);
+  border: 2px solid var(--color-primary);
+}
+
+.clicked {
+  background: var(--color-primary);
+}
+
+.carousel {
+  margin: 10rem 10rem;
+}

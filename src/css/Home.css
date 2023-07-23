@@ -1,0 +1,64 @@
+.home-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.description {
+  padding-top: 5rem;
+  padding-left: 7rem;
+  padding-right: 9rem;
+}
+
+.description h3 {
+  color: var(--text-primary);
+  font-size: 32px;
+  font-weight: var(--font-medium);
+}
+
+.description h1 {
+  color: var(--color-primary);
+  font-size: 45px;
+  font-weight: var(--font-xbold);
+  margin-top: 2rem;
+}
+
+.description h5 .position {
+  margin-top: 2rem;
+}
+.description h5 {
+  color: var(--text-secondary);
+  font-size: 20px;
+  font-weight: var(--font-regular);
+  margin-top: 2rem;
+}
+
+.download-btn {
+  margin-top: 2rem;
+  font-size: 20px;
+  font-weight: var(--font-medium);
+  background: var(--color-primary);
+  width: 13rem;
+  height: 3rem;
+  border-radius: 10px;
+  transition: ease-in-out 0.4s;
+}
+
+.download-btn:hover {
+  background: var(--color-secondary);
+  border: 2px solid var(--color-primary);
+}
+
+.social {
+  display: flex;
+  margin-top: 6rem;
+  margin-left: 5rem;
+}
+
+.social h3 {
+  margin-right: 1.5rem;
+  font-size: 32px;
+  font-weight: var(--font-regular);
+}
+.self-image img {
+  margin-top: 1rem auto;
+}

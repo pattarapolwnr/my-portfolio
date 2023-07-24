@@ -6,8 +6,15 @@ const Header = () => {
   return (
     <div className="nav-container">
       <div className="nav-brand">
-        <img src="/assets/Code.png" alt="" />
-        <h3>PattarapolW</h3>
+        <a href="https://pattarapolw.netlify.app/">
+          <img src="/assets/Code.png" alt="" />
+        </a>
+        <a
+          href="https://pattarapolw.netlify.app/"
+          style={{ listStyle: 'none', textDecoration: 'none' }}
+        >
+          <h3>PattarapolW</h3>
+        </a>
       </div>
       <div className="nav-menu">
         <ul>

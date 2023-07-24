@@ -39,10 +39,10 @@ const Home = () => {
         </a>
         <div className="social">
           <h3>Visit my</h3>
-          <a href="">
+          <a href="https://github.com/pattarapolwnr">
             <img src="/assets/GitHub.png" alt="" />
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/pattarapol-wangnirun-778540248/">
             <img src="/assets/LinkedIn Circled.png" alt="" />
           </a>
         </div>

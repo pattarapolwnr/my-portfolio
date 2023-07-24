@@ -31,7 +31,12 @@ const Home = () => {
           I’m a fourth year student at SIIT, Thammasat university who is
           interested in web development both front-end and back-end.
         </h5>
-        <Button className="download-btn">Download resume</Button>
+        <a
+          href="/files/Updated-Resume-Mr.Pattarapol-Wangnirun.pdf"
+          target="_blank"
+        >
+          <Button className="download-btn">Download resume</Button>
+        </a>
         <div className="social">
           <h3>Visit my</h3>
           <a href="">

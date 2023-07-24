@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap';
 
 const Header = () => {
   return (
-    <div className="container">
+    <div className="nav-container">
       <div className="nav-brand">
         <img src="/assets/Code.png" alt="" />
         <h3>PattarapolW</h3>

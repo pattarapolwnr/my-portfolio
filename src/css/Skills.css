@@ -1,6 +1,8 @@
 .myskills {
   padding-top: 5rem;
   padding-left: 7rem;
+  max-width: 1340px;
+  margin: 0 auto;
 }
 
 h1 {

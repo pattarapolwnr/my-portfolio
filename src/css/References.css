@@ -1,0 +1,91 @@
+.references-container {
+  margin: 0rem auto;
+  padding-top: 3rem;
+  max-width: 1140px;
+  box-sizing: border-box;
+}
+
+.references-container h1 {
+  font-size: 32px;
+}
+
+.ref-card {
+  display: grid;
+  grid-template-rows: 170px 400px;
+  transition: 0.3s;
+  background: var(--background-color);
+  border-radius: 10px;
+  box-shadow: rgba(21, 106, 159, 0.35) 0px 5px 15px;
+}
+
+.upper {
+  /* padding: 10px auto; */
+  display: grid;
+  grid-template-columns: 120px 200px;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.upper img {
+  margin-left: 1rem;
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+}
+.ref-description {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  justify-items: center;
+}
+.ref-description h1 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 28px;
+  font-weight: var(--font-bold);
+}
+
+.ref-description h5 {
+  font-size: 20px;
+  color: var(--text-secondary);
+}
+.ref-description p {
+  font-size: 15px;
+  color: var(--text-secondary);
+  font-weight: var(--font-regular);
+}
+
+.lower {
+  max-width: 320px;
+  height: 100%;
+  margin: 1rem auto;
+}
+
+.lower p {
+  margin: 0;
+  padding: 0rem 2.1rem;
+  font-size: 18px;
+  color: var(--color-primary);
+}
+
+/* On mouse-over, add a deeper shadow */
+.ref-card:hover {
+  scale: 1.1;
+  border: 3px solid var(--color-primary);
+  box-shadow: 0px 0px 0px;
+}
+
+/* Add some padding inside the card container */
+.ref-container {
+  padding: 2px 16px;
+  background-color: #ffff;
+}
+
+.references-grid {
+  margin: 3rem auto;
+  max-width: 1140px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3rem;
+}

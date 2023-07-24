@@ -3,6 +3,9 @@ import Header from './components/Nav';
 import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
+import Projects from './components/Projects';
+import References from './components/References';
+
 function App() {
   return (
     <div className="page-container">
@@ -15,6 +18,12 @@ function App() {
       </div>
       <div className="container-skills">
         <Skills />
+      </div>
+      <div className="container-projects">
+        <Projects />
+      </div>
+      <div className="container-references">
+        <References />
       </div>
     </div>
   );

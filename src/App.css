@@ -16,3 +16,12 @@
   height: 900px;
   background: var(--color-secondary);
 }
+
+.container-projects {
+  height: 980px;
+}
+
+.container-references {
+  height: 900px;
+  background: var(--color-secondary);
+}

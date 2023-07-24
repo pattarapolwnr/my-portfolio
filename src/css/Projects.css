@@ -1,0 +1,31 @@
+.container-projects {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.projects-grid {
+  margin: 5rem auto;
+  max-width: 840px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+  row-gap: 3rem;
+}
+
+.card {
+  transition: ease-in 0.2s;
+  border: 0px;
+  box-shadow: rgba(21, 106, 159, 0.35) 0px 5px 15px;
+}
+
+.card img {
+  cursor: pointer;
+}
+.card:hover {
+  scale: 1.1;
+  border: 3px solid var(--color-primary);
+  box-shadow: 0px 0px 0px;
+}

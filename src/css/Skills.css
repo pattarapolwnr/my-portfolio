@@ -38,3 +38,10 @@ h1 {
 .carousel {
   margin: 10rem 10rem;
 }
+
+.slick-slide img {
+  transition: ease-in-out 0.2s;
+}
+.slick-slide img:hover {
+  scale: 1.1;
+}

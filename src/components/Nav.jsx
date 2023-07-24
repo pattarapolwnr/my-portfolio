@@ -11,7 +11,7 @@ const Header = () => {
         </a>
         <a
           href="https://pattarapolw.netlify.app/"
-          style={{ listStyle: 'none', textDecoration: 'none' }}
+          style={{ textDecoration: 'none' }}
         >
           <h3>PattarapolW</h3>
         </a>

@@ -15,6 +15,11 @@
   align-items: center;
   justify-items: center;
   cursor: pointer;
+  transition: ease-in-out 0s;
+}
+
+.nav-brand h3:hover {
+  color: var(--color-primary);
 }
 
 .nav-brand h3 {

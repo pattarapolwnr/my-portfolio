@@ -1,5 +1,6 @@
 import { Button } from 'react-bootstrap';
 import '../css/Home.css';
+import { TypeAnimation } from 'react-type-animation';
 const Home = () => {
   return (
     <div className="home-container">
@@ -25,7 +26,16 @@ const Home = () => {
             I&apos;m
           </span>
         </h3>
-        <h1>Pattarapol Wangnirun</h1>
+        <TypeAnimation
+          sequence={[
+            // Same substring at the start will only be typed once, initially
+            'Pattarapol Wangnirun',
+          ]}
+          speed={40}
+          style={{ fontSize: '39px', color: 'var(--color-primary)' }}
+          repeat={1}
+        />
+        {/* <h1>Pattarapol Wangnirun</h1> */}
         <h3 style={{ marginTop: '2rem' }}>Full Stack Developer</h3>
         <h5>
           I’m a fourth year student at SIIT, Thammasat university who is
@@ -39,10 +49,18 @@ const Home = () => {
         </a>
         <div className="social">
           <h3>Visit my</h3>
-          <a href="https://github.com/pattarapolwnr">
+          <a
+            href="https://github.com/pattarapolwnr"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src="/assets/GitHub.png" alt="" />
           </a>
-          <a href="https://www.linkedin.com/in/pattarapol-wangnirun-778540248/">
+          <a
+            href="https://www.linkedin.com/in/pattarapol-wangnirun-778540248/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src="/assets/LinkedIn Circled.png" alt="" />
           </a>
         </div>

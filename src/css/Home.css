@@ -19,7 +19,7 @@
 
 .description h1 {
   color: var(--color-primary);
-  font-size: 45px;
+  font-size: 39px;
   font-weight: var(--font-xbold);
   margin-top: 2rem;
 }
@@ -63,4 +63,24 @@
 }
 .self-image img {
   margin-top: 1rem auto;
+}
+
+.self-image {
+  animation: bounce2 2.2s ease 1;
+}
+
+@keyframes bounce2 {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-60px);
+  }
+  60% {
+    transform: translateY(-45px);
+  }
 }

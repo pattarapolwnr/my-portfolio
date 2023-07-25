@@ -1,0 +1,33 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu ul {
+  margin: 3rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu ul li {
+  list-style-type: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: var(--text-primary);
+  margin: auto 1.5rem;
+}
+
+.footer-social {
+  margin-bottom: 3rem;
+}
+
+.copyright {
+  color: var(--text-primary);
+  letter-spacing: 1px;
+  font-weight: var(--font-regular);
+}

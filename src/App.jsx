@@ -8,33 +8,36 @@ import References from './components/References';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import 'animate.css';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="page-container">
-      <div className="container-home">
-        <Header />
-        <Home />
+    <BrowserRouter>
+      <div className="page-container">
+        <div className="container-home" id="home">
+          <Header />
+          <Home />
+        </div>
+        <div className="container-about" id="about">
+          <About />
+        </div>
+        <div className="container-skills" id="skills">
+          <Skills />
+        </div>
+        <div className="container-projects" id="projects">
+          <Projects />
+        </div>
+        <div className="container-references" id="references">
+          <References />
+        </div>
+        <div className="container-contact" id="contact">
+          <Contact />
+        </div>
+        <div className="container-footer">
+          <Footer />
+        </div>
       </div>
-      <div className="container-about">
-        <About />
-      </div>
-      <div className="container-skills">
-        <Skills />
-      </div>
-      <div className="container-projects">
-        <Projects />
-      </div>
-      <div className="container-references">
-        <References />
-      </div>
-      <div className="container-contact">
-        <Contact />
-      </div>
-      <div className="container-footer">
-        <Footer />
-      </div>
-    </div>
+    </BrowserRouter>
   );
 }
 

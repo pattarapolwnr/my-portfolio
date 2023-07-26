@@ -9,6 +9,7 @@ const References = () => {
           style={{
             textAlign: 'left',
           }}
+          id="references-head"
         >
           <span
             style={{
@@ -41,9 +42,9 @@ const References = () => {
                 style={{ width: '100%' }}
               />
               <div className="ref-description">
-                <h1>John Doe</h1>
-                <h5>IT Manager</h5>
-                <p>ABC Company</p>
+                <h1>Kornkanok Kaohom</h1>
+                <h5>Senior Software Eng.</h5>
+                <p>IT, SCB Thailand</p>
               </div>
             </div>
             <div className="lower">
@@ -69,9 +70,9 @@ const References = () => {
                 style={{ width: '100%' }}
               />
               <div className="ref-description">
-                <h1>John Doe</h1>
-                <h5>IT Manager</h5>
-                <p>ABC Company</p>
+                <h1 style={{ fontSize: '20px' }}>Priyarat Wichiencharoen</h1>
+                <h5>Head of deposit</h5>
+                <p>IT, SCB Thailand</p>
               </div>
             </div>
             <div className="lower">
@@ -88,7 +89,7 @@ const References = () => {
           </div>
         </ScrollAnimation>
 
-        <ScrollAnimation delay={400} animateIn="animate__slideInUp">
+        {/* <ScrollAnimation delay={400} animateIn="animate__slideInUp">
           <div className="ref-card">
             <div className="upper">
               <img
@@ -114,7 +115,7 @@ const References = () => {
               <BiSolidQuoteRight color="white" size="32px" />
             </div>
           </div>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 // import React from 'react'
 import '../css/Navbar.css';
 import { Button } from 'react-bootstrap';
+import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
   return (
@@ -19,24 +20,36 @@ const Header = () => {
       <div className="nav-menu">
         <ul>
           <li>
-            <a href="#">Home</a>
+            <HashLink smooth to="/#home">
+              Home
+            </HashLink>
           </li>
           <li>
-            <a href="#">About</a>
+            <HashLink smooth to="/#about">
+              About
+            </HashLink>
           </li>
           <li>
-            <a href="#">Skills</a>
+            <HashLink smooth to="/#skills">
+              Skills
+            </HashLink>
           </li>
           <li>
-            <a href="#">Projects</a>
+            <HashLink smooth to="/#projects">
+              Projects
+            </HashLink>
           </li>
           <li>
-            <a href="#">References</a>
+            <HashLink smooth to="/#references">
+              References
+            </HashLink>
           </li>
         </ul>
       </div>
       <div className="call2action">
-        <Button className="nav-btn">Contact</Button>
+        <HashLink smooth to="/#contact">
+          <Button className="nav-btn">Contact</Button>
+        </HashLink>
       </div>
     </div>
   );

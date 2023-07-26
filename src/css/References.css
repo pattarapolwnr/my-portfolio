@@ -12,7 +12,7 @@
 
 .ref-card {
   display: grid;
-  grid-template-rows: 170px 400px;
+  grid-template-rows: 170px 500px;
   transition: 0.3s;
   background: var(--background-color);
   border-radius: 10px;
@@ -22,7 +22,7 @@
 .upper {
   /* padding: 10px auto; */
   display: grid;
-  grid-template-columns: 120px 200px;
+  grid-template-columns: 120px 250px;
   justify-items: center;
   justify-content: center;
   align-items: center;
@@ -43,7 +43,7 @@
 .ref-description h1 {
   margin-top: 2rem;
   margin-bottom: 1rem;
-  font-size: 28px;
+  font-size: 22px;
   font-weight: var(--font-bold);
 }
 
@@ -85,8 +85,8 @@
 
 .references-grid {
   margin: 3rem auto;
-  max-width: 1140px;
+  max-width: 860px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   column-gap: 3rem;
 }

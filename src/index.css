@@ -14,3 +14,7 @@ body {
   background-color: var(--background-color);
   font-family: 'Kanit', sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}

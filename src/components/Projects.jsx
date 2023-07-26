@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <div className="container-projects">
       <ScrollAnimation delay={100} animateIn="animate__slideInDown">
-        <h1 style={{ textAlign: 'center' }}>
+        <h1 style={{ textAlign: 'center' }} id="projects-head">
           <span
             style={{
               color: 'var(--text-primary)',
@@ -31,10 +31,21 @@ const Projects = () => {
       <div className="projects-grid">
         <ScrollAnimation delay={50} animateIn="animate__zoomIn">
           <Card style={{ width: '22rem' }} className="grid-items">
-            <Card.Img variant="top" src="/assets/web_sample.png" />
+            <a
+              href="https://oooburger-8e087.web.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Card.Img
+                variant="top"
+                src="/assets/oooburgerdemo.png"
+                className="oooburger"
+              />
+            </a>
+
             <Card.Body>
               <Card.Title>
-                Card Title{' '}
+                OOO Burger Website{' '}
                 <a
                   href="https://github.com/pattarapolwnr"
                   target="_blank"
@@ -44,20 +55,23 @@ const Projects = () => {
                 </a>
               </Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card&apos;s content.
+                Famous burger shop website
+                <br />
+                <p style={{ fontSize: '12px', color: 'gray' }}>
+                  HTML, CSS, Javascript and JQuery
+                </p>
               </Card.Text>
             </Card.Body>
           </Card>
         </ScrollAnimation>
         <ScrollAnimation delay={200} animateIn="animate__zoomIn">
           <Card style={{ width: '22rem' }} className="grid-items">
-            <Card.Img variant="top" src="/assets/web_sample.png" />
+            <Card.Img variant="top" src="/assets/pbponlinestore.png" />
             <Card.Body>
               <Card.Title>
-                Card Title{' '}
+                PBP Online Store{' '}
                 <a
-                  href="https://github.com/pattarapolwnr"
+                  href="https://github.com/pattarapolwnr/pbp-online-store"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -65,20 +79,30 @@ const Projects = () => {
                 </a>
               </Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card&apos;s content.
+                E-Commerce Website
+                <br />
+                <p style={{ fontSize: '12px', color: 'gray' }}>
+                  MongoDB, Express.js, React and Node.js
+                </p>
               </Card.Text>
             </Card.Body>
           </Card>
         </ScrollAnimation>
         <ScrollAnimation delay={100} animateIn="animate__zoomIn">
           <Card style={{ width: '22rem' }} className="grid-items">
-            <Card.Img variant="top" src="/assets/web_sample.png" />
+            <a
+              href="https://paopao-reactjs-cart.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Card.Img variant="top" src="/assets/reactcartdemo.png" />
+            </a>
+
             <Card.Body>
               <Card.Title>
-                Card Title{' '}
+                Cart items{' '}
                 <a
-                  href="https://github.com/pattarapolwnr"
+                  href="https://github.com/pattarapolwnr/reactjs-useReducer-useContext"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -86,19 +110,29 @@ const Projects = () => {
                 </a>
               </Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card&apos;s content.
+                React with useContext, useReducer
+                <br />
+                <p style={{ fontSize: '12px', color: 'gray' }}>
+                  (Learnt from John Smilga&apos;s Udemy Course)
+                </p>
               </Card.Text>
             </Card.Body>
           </Card>
         </ScrollAnimation>
         <ScrollAnimation delay={200} animateIn="animate__zoomIn">
           <Card style={{ width: '22rem' }} className="grid-items">
-            <Card.Img variant="top" src="/assets/web_sample.png" />
+            <a
+              href="https://paopao-reactjs-backroads.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Card.Img variant="top" src="/assets/backroadsdemo.png" />
+            </a>
+
             <Card.Body>
               <Card.Title>
-                Card Title{' '}
-                <a href="https://github.com/pattarapolwnr">
+                Backroads Website{' '}
+                <a href="https://github.com/pattarapolwnr/reactjs-backroads">
                   <img
                     src="/assets/GitHub.png"
                     alt=""
@@ -108,8 +142,10 @@ const Projects = () => {
                 </a>
               </Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card&apos;s content.
+                React and CSS <br />
+                <p style={{ fontSize: '12px', color: 'gray' }}>
+                  (Learnt from John Smilga&apos;s Udemy Course)
+                </p>
               </Card.Text>
             </Card.Body>
           </Card>

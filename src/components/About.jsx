@@ -3,15 +3,15 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const About = () => {
   return (
     <div className="about-container">
-      <ScrollAnimation
-        delay={300}
-        animateIn="animate__slideInDown"
-        animateOut="animate__fadeOut"
-      >
-        <div className="profile-img">
+      <div className="profile-img">
+        <ScrollAnimation
+          delay={300}
+          animateIn="animate__slideInDown"
+          animateOut="animate__fadeOut"
+        >
           <img src="/assets/personal-image.png" alt="" />
-        </div>
-      </ScrollAnimation>
+        </ScrollAnimation>
+      </div>
 
       <div className="aboutme">
         <ScrollAnimation delay={400} animateIn="animate__fadeIn">

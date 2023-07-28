@@ -15,7 +15,6 @@
   align-items: center;
   justify-items: center;
   cursor: pointer;
-  transition: ease-in-out 0s;
 }
 
 .nav-brand h3:hover {
@@ -66,4 +65,46 @@
 .nav-btn:hover {
   background: var(--color-secondary) !important;
   border: 2px solid var(--color-primary);
+}
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 460px) {
+  .nav-container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .nav-brand {
+    margin-top: 1rem;
+  }
+  .call2action {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+  .nav-menu ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    align-items: center;
+    justify-items: center;
+    margin: 1rem auto;
+    margin-top: 0;
+    padding: 0;
+  }
+  .nav-menu.active {
+    display: block;
+  }
 }

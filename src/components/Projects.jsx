@@ -57,9 +57,9 @@ const Projects = () => {
               <Card.Text>
                 Famous burger shop website
                 <br />
-                <p style={{ fontSize: '12px', color: 'gray' }}>
+                <span style={{ fontSize: '12px', color: 'gray' }}>
                   HTML, CSS, Javascript and JQuery
-                </p>
+                </span>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -81,9 +81,9 @@ const Projects = () => {
               <Card.Text>
                 E-Commerce Website
                 <br />
-                <p style={{ fontSize: '12px', color: 'gray' }}>
+                <span style={{ fontSize: '12px', color: 'gray' }}>
                   MongoDB, Express.js, React and Node.js
-                </p>
+                </span>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -112,9 +112,9 @@ const Projects = () => {
               <Card.Text>
                 React with useContext, useReducer
                 <br />
-                <p style={{ fontSize: '12px', color: 'gray' }}>
+                <span style={{ fontSize: '12px', color: 'gray' }}>
                   (Learnt from John Smilga&apos;s Udemy Course)
-                </p>
+                </span>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -143,9 +143,9 @@ const Projects = () => {
               </Card.Title>
               <Card.Text>
                 React and CSS <br />
-                <p style={{ fontSize: '12px', color: 'gray' }}>
+                <span style={{ fontSize: '12px', color: 'gray' }}>
                   (Learnt from John Smilga&apos;s Udemy Course)
-                </p>
+                </span>
               </Card.Text>
             </Card.Body>
           </Card>

@@ -4,8 +4,12 @@ import { useState } from 'react';
 import languages from '../data/languages';
 import frameworks from '../data/frameworks';
 import tools from '../data/tools';
-import Carousels from './Carousels';
+// import Carousel from 'react-multi-carousel';
+// import 'react-multi-carousel/lib/styles.css';
+// import CarouselMulti from './CarouselMulti';
 import ScrollAnimation from 'react-animate-on-scroll';
+// import { GrFormNext, GrFormPrevious } from 'react-icons/gr';
+import Carousels from './Carousels';
 
 const Skills = () => {
   const [data, setData] = useState(languages);
@@ -87,11 +91,12 @@ const Skills = () => {
           </div>
         </div>
       </ScrollAnimation>
-      <ScrollAnimation delay={600} animateIn="animate__fadeInLeft">
-        <div className="carousel">
+
+      <div className="carousel">
+        <ScrollAnimation delay={600} animateIn="animate__fadeInLeft">
           <Carousels data={data} />
-        </div>
-      </ScrollAnimation>
+        </ScrollAnimation>
+      </div>
     </div>
   );
 };

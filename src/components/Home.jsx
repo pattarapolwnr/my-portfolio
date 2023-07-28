@@ -45,24 +45,28 @@ const Home = () => {
           href="/files/Updated-Resume-Mr.Pattarapol-Wangnirun.pdf"
           target="_blank"
         >
-          <Button className="download-btn">Download resume</Button>
+          <Button className="download-btn" style={{ margin: '2rem auto' }}>
+            Download resume
+          </Button>
         </a>
         <div className="social">
           <h3>Visit my</h3>
-          <a
-            href="https://github.com/pattarapolwnr"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src="/assets/GitHub.png" alt="" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/pattarapol-wangnirun-778540248/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src="/assets/LinkedIn Circled.png" alt="" />
-          </a>
+          <div className="social-icons">
+            <a
+              href="https://github.com/pattarapolwnr"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="/assets/GitHub.png" alt="" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/pattarapol-wangnirun-778540248/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="/assets/LinkedIn Circled.png" alt="" />
+            </a>
+          </div>
         </div>
       </div>
       <div className="self-image">

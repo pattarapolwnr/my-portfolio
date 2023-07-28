@@ -45,3 +45,50 @@ h1 {
 .slick-slide img:hover {
   scale: 1.1;
 }
+
+@media screen and (max-width: 460px) {
+  .skills-container {
+    max-width: 460px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+  }
+  .myskills {
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .selector {
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn {
+    margin: 0 auto;
+    font-size: 1rem;
+  }
+
+  .slider-track {
+    max-width: 350px !important;
+    height: auto;
+  }
+  button.slick-arrow {
+    display: none !important;
+  }
+
+  .card-container {
+    margin-left: 5.5rem !important;
+  }
+  .carousel {
+    margin-top: 1rem !important;
+  }
+  ul.slick-dots {
+    margin-right: 3rem !important;
+  }
+}

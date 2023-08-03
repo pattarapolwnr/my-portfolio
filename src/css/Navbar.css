@@ -95,7 +95,9 @@
     width: 2rem !important;
     height: 2rem !important;
   }
-
+  .nav-brand h3 {
+    margin-left: 0;
+  }
   .nav-menu {
     height: 100vh;
     left: 0;

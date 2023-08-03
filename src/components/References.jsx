@@ -76,7 +76,11 @@ const References = () => {
               </div>
             </div>
             <div className="lower">
-              <BiSolidQuoteLeft color="white" size="32px" />
+              <BiSolidQuoteLeft
+                color="white"
+                size="32px"
+                className="quoteicon"
+              />
               <p>
                 &emsp;Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Nesciunt dicta facilis cupiditate exercitationem, delectus,
@@ -84,7 +88,11 @@ const References = () => {
                 obcaecati fuga accusantium ullam aliquid ex beatae illo?
               </p>
               &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-              <BiSolidQuoteRight color="white" size="32px" />
+              <BiSolidQuoteRight
+                color="white"
+                size="32px"
+                className="quoteicon"
+              />
             </div>
           </div>
         </ScrollAnimation>

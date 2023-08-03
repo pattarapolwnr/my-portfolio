@@ -4,7 +4,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 const Projects = () => {
   return (
-    <div className="container-projects">
+    <div className="projects-container">
       <ScrollAnimation delay={100} animateIn="animate__slideInDown">
         <h1 style={{ textAlign: 'center' }} id="projects-head">
           <span

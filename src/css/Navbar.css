@@ -81,7 +81,10 @@
     margin: 0 auto;
   }
   .nav-brand {
+    width: 70%;
     margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
   }
   .call2action {
     display: none;
@@ -89,10 +92,20 @@
   .hamburger {
     display: block;
     cursor: pointer;
+    width: 2rem !important;
+    height: 2rem !important;
   }
 
   .nav-menu {
-    display: none;
+    height: 100vh;
+    left: 0;
+    position: absolute;
+    top: 79px;
+    width: 300px;
+    background: var(--color-primary);
+    transform: translateX(-300px);
+    transition: transform 1s ease-out, visibility 1s;
+    visibility: hidden;
   }
   .nav-menu ul {
     display: flex;
@@ -101,10 +114,27 @@
     align-items: center;
     justify-items: center;
     margin: 1rem auto;
-    margin-top: 0;
+    margin-top: 1rem;
+    padding: 0;
+    transition: transform 1s ease-out;
+  }
+  .nav-menu.active ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    align-items: center;
+    justify-items: center;
+    margin: 1rem auto;
+    margin-top: 1rem;
     padding: 0;
   }
   .nav-menu.active {
-    display: block;
+    z-index: 11;
+    transform: translateX(0px);
+    transition: transform 1s ease-out, visibility 0s;
+    visibility: visible;
+    width: 100%;
+    height: 100vh;
+    background: var(--color-primary);
   }
 }

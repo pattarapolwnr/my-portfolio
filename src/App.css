@@ -48,4 +48,20 @@
     height: auto;
     width: 100%;
   }
+  .container-projects {
+    height: auto;
+    width: 100%;
+  }
+  .container-references {
+    width: 100%;
+    height: auto;
+  }
+  .container-contact {
+    width: 100%;
+    height: auto;
+  }
+  .container-footer {
+    width: 100%;
+    height: auto;
+  }
 }

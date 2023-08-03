@@ -7,10 +7,19 @@ import { AiOutlineClose } from 'react-icons/ai';
 import { useState } from 'react';
 
 const Header = () => {
-  const [showMenu, setShowMenu] = useState(true);
+  const [showMenu, setShowMenu] = useState(() => {
+    let width = window.innerWidth;
+    if (width <= 460) {
+      return false;
+    } else {
+      return true;
+    }
+  });
+
   const handleClick = () => {
     setShowMenu(!showMenu);
   };
+
   return (
     <div className="nav-container">
       <div className="nav-brand">
@@ -23,6 +32,27 @@ const Header = () => {
         >
           <h3>PattarapolW</h3>
         </a>
+        <div className="hamburger">
+          {' '}
+          <FaBars
+            style={
+              showMenu
+                ? { display: 'none' }
+                : { color: 'white', fontSize: '2rem' }
+            }
+            className="hamburger"
+            onClick={handleClick}
+          />
+          <AiOutlineClose
+            style={
+              showMenu
+                ? { color: 'white', fontSize: '3rem' }
+                : { display: 'none' }
+            }
+            className="hamburger"
+            onClick={handleClick}
+          />
+        </div>
       </div>
       <div className={showMenu ? 'nav-menu active' : 'nav-menu'}>
         <ul>
@@ -52,25 +82,6 @@ const Header = () => {
             </HashLink>
           </li>
         </ul>
-      </div>
-      <div className="hamburger">
-        {' '}
-        <FaBars
-          style={
-            showMenu
-              ? { display: 'none' }
-              : { color: 'white', fontSize: '2rem' }
-          }
-          onClick={handleClick}
-        />
-        <AiOutlineClose
-          style={
-            showMenu
-              ? { color: 'white', fontSize: '3rem' }
-              : { display: 'none' }
-          }
-          onClick={handleClick}
-        />
       </div>
 
       <div className="call2action">

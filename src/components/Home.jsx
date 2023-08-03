@@ -36,7 +36,7 @@ const Home = () => {
           repeat={1}
         />
         {/* <h1>Pattarapol Wangnirun</h1> */}
-        <h3 style={{ marginTop: '2rem' }}>Full Stack Developer</h3>
+        <h3 style={{ marginTop: '2rem' }}>Front-end Developer</h3>
         <h5>
           I’m a fourth year student at SIIT, Thammasat university who is
           interested in web development both front-end and back-end.

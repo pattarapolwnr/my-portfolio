@@ -35,3 +35,30 @@
 .card-img-top .oooburger {
   background: black;
 }
+
+@media screen and (max-width: 460px) {
+  .container-projects {
+    max-width: 460px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+  }
+  .projects-grid {
+    margin: 3rem auto;
+    max-width: 460px;
+    display: grid;
+    grid-template-columns: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+  }
+  #projects-head span {
+    font-size: 48px !important;
+  }
+  .card {
+    width: 300px !important;
+    height: 310px !important;
+  }
+}

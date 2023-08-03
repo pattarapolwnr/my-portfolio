@@ -9,11 +9,13 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import 'animate.css';
 import { BrowserRouter } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <BrowserRouter>
       <div className="page-container">
+        <ScrollToTop />
         <div className="container-home" id="home">
           <Header />
           <Home />

@@ -6,10 +6,6 @@
   box-sizing: border-box;
 }
 
-.references-container h1 {
-  font-size: 32px;
-}
-
 .ref-card {
   display: grid;
   grid-template-rows: 170px 500px;
@@ -89,4 +85,42 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 3rem;
+}
+
+@media screen and (max-width: 460px) {
+  .references-container {
+    max-width: 460px;
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+  }
+  .references-container span {
+    font-size: 32px !important;
+  }
+  .references-container h3 {
+    text-align: center !important;
+  }
+  .ref-card {
+    grid-template-rows: 130px 320px;
+    max-width: 330px;
+  }
+  .references-grid {
+    max-width: 350px;
+    grid-template-columns: none;
+    row-gap: 2rem;
+    justify-content: center;
+    justify-items: center;
+  }
+  .upper {
+    grid-template-columns: 100px 200px;
+  }
+  .ref-description h1 {
+    font-size: 1.15rem;
+  }
+  .ref-description h5 {
+    font-size: 1rem;
+  }
+  svg[style] {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
 }

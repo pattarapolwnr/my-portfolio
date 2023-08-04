@@ -71,10 +71,15 @@ h1 {
 
 @media screen and (max-width: 820px) {
   .card-container {
-    margin-left: 2rem !important;
+    margin-left: 1.5rem !important;
   }
   .slick-dots li button:before {
     margin-left: 0;
+  }
+  .slick-slider {
+    max-width: 750px !important;
+    height: auto;
+    margin: 0 auto !important;
   }
 }
 

@@ -35,6 +35,44 @@
   background: var(--color-secondary);
 }
 
+@media screen and (max-width: 1024px) {
+  .container-about {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .container-home {
+    height: auto;
+    width: 100%;
+  }
+  .container-about {
+    height: auto;
+    width: 100%;
+  }
+  /* .container-skills {
+    height: auto;
+    width: 100%;
+  } */
+  .container-projects {
+    height: auto;
+    width: 100%;
+  }
+  .container-references {
+    width: 100%;
+    height: auto;
+  }
+  .container-contact {
+    width: 100%;
+    height: auto;
+  }
+  .container-footer {
+    width: 100%;
+    height: auto;
+  }
+}
+
 @media screen and (max-width: 460px) {
   .container-home {
     height: auto;

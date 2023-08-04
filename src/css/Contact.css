@@ -63,6 +63,48 @@ textarea::placeholder {
   border: 2px solid var(--color-primary);
   color: var(--color-primary);
 }
+@media screen and (max-width: 1024px) {
+  .contact-container {
+    margin: 4rem 2rem;
+    padding: 0 2rem;
+  }
+}
+@media screen and (max-width: 820px) {
+  .contact-container {
+    max-width: 820px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .interest h1 {
+    font-size: 2rem !important;
+    margin-top: 2rem;
+  }
+  .interest img {
+    width: 350px;
+  }
+  .contact-form {
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form h6 {
+    /* text-align: left; */
+    font-size: 1rem;
+  }
+  .input {
+    width: 18rem;
+  }
+  .message {
+    width: 21rem;
+    margin-bottom: 1rem;
+  }
+  .sub-btn {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+}
 
 @media screen and (max-width: 460px) {
   .contact-container {

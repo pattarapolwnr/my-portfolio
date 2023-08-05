@@ -133,6 +133,7 @@
     font-size: 32px !important;
   }
   .references-container h3 {
+    padding-left: 0 !important;
     text-align: center !important;
   }
   .ref-card {

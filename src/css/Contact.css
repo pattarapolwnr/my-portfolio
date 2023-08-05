@@ -130,7 +130,7 @@ textarea::placeholder {
   }
   .contact-form {
     margin: 0 auto;
-    padding: 0 1rem;
+    padding: 0 0.3rem !important;
   }
   .contact-form form {
     display: flex;

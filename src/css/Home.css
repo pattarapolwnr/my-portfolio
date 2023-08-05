@@ -170,13 +170,15 @@
     padding-top: 1rem;
     padding-left: 4rem;
     padding-right: 4rem;
+    padding-bottom: 0 !important;
   }
 
   .social {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr auto !important;
     text-align: center;
     margin: 2rem auto;
+    margin-bottom: 0 !important;
     align-items: center;
     justify-items: center;
     justify-content: center;

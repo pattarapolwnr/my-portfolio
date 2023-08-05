@@ -37,7 +37,7 @@ const References = () => {
           <div className="ref-card">
             <div className="upper">
               <img
-                src="/assets/user.png"
+                src="/assets/kornkanok.png"
                 alt="Avatar"
                 style={{ width: '100%' }}
               />
@@ -50,10 +50,11 @@ const References = () => {
             <div className="lower">
               <BiSolidQuoteLeft color="white" size="32px" />
               <p>
-                &emsp;Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt dicta facilis cupiditate exercitationem, delectus,
-                magni eum ducimus culpa, corrupti accusantium labore! Aliquam
-                obcaecati fuga accusantium ullam aliquid ex beatae illo?
+                ในช่วงเวลาที่น้องเปาเข้าร่วมงานในทีม
+                น้องมีความรับผิดชอบกับงานที่ได้รับมอบหมาย
+                และได้แสดงความกระตือรือร้นในการเรียนรู้ โดยใช้ความรู้ส่วนตัว
+                และความรู้ที่ได้เรียนมา
+                มาพัฒนางานที่ได้รับอย่างเต็มที่และดีเยี่ยม
               </p>
               &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
               <BiSolidQuoteRight color="white" size="32px" />

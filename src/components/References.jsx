@@ -66,7 +66,7 @@ const References = () => {
           <div className="ref-card">
             <div className="upper">
               <img
-                src="/assets/user.png"
+                src="/assets/priyarat.png"
                 alt="Avatar"
                 style={{ width: '100%' }}
               />
@@ -83,10 +83,9 @@ const References = () => {
                 className="quoteicon"
               />
               <p>
-                &emsp;Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt dicta facilis cupiditate exercitationem, delectus,
-                magni eum ducimus culpa, corrupti accusantium labore! Aliquam
-                obcaecati fuga accusantium ullam aliquid ex beatae illo?
+                ในช่วงระยะเวลา 2 เดือน ที่มาฝึกงานกับ SCB
+                น้องเปามีความตั้งใจในการทำงานมาก
+                สามารถเรียนรู้การทำงานและปฎิบัติงานได้อย่างดีเยี่ยม
               </p>
               &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
               <BiSolidQuoteRight

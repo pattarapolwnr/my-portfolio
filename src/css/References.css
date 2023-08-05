@@ -8,7 +8,7 @@
 
 .ref-card {
   display: grid;
-  grid-template-rows: 170px 500px;
+  grid-template-rows: 170px 300px;
   transition: 0.3s;
   background: var(--background-color);
   border-radius: 10px;

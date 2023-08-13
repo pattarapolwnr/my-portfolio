@@ -10,11 +10,11 @@ import Footer from './components/Footer';
 import 'animate.css';
 import { BrowserRouter } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
-import ReactGA from 'react-ga';
+// import ReactGA from 'react-ga';
 
 function App() {
-  ReactGA.initialize('G-60139NQ0CM');
-  ReactGA.pageview(window.location.pathname + window.location.search);
+  // ReactGA.initialize('G-60139NQ0CM');
+  // ReactGA.pageview(window.location.pathname + window.location.search);
   return (
     <BrowserRouter>
       <div className="page-container">

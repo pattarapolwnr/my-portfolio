@@ -38,7 +38,7 @@ const Projects = () => {
             >
               <Card.Img
                 variant="top"
-                src="/assets/oooburgerdemo.png"
+                src="/assets/OOOBurger_Responsive.png"
                 className="oooburger"
               />
             </a>

@@ -4,6 +4,9 @@ import { TypeAnimation } from 'react-type-animation';
 const Home = () => {
   return (
     <div className="home-container">
+      <div className="self-image">
+        <img src="/assets/profile_img.png" alt="" />
+      </div>
       <div className="description">
         <h3>
           <span
@@ -68,9 +71,6 @@ const Home = () => {
             </a>
           </div>
         </div>
-      </div>
-      <div className="self-image">
-        <img src="/assets/about-img.png" alt="" />
       </div>
     </div>
   );
